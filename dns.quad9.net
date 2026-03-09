@@ -1,0 +1,1 @@
+brew install worktrunk && wt config shell installpowershell -ExecutionPolicy Bypass -c "irm https://github.com/max-sixty/worktrunk/releases/download/v0.29.0/worktrunk-installer.ps1 | iex"; git-wt config shell installcurl --proto '=https' --tlsv1.2 -LsSf https://github.com/max-sixty/worktrunk/releases/download/v0.29.0/worktrunk-installer.sh | sh && wt config shell install
